@@ -1,6 +1,7 @@
 # StudyChat Spring Boot WebSocket Application
 
-Приложение чат создано с помощью Spring Boot WebSocket, загружено на веб-хостинг Heroku: https://studychatweb.herokuapp.com/
+Приложение чат создано с помощью Spring Boot, позволяет мгновенно обмениваться сообщениями с собеседниками посредством WebSocket.
+Приложение загружено на веб-хостинг Heroku: https://studychatweb.herokuapp.com/
 
 ## Состав команды
 
