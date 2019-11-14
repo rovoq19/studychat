@@ -4,6 +4,8 @@
 
 Приложение загружено на веб-хостинг Heroku: https://studychatweb.herokuapp.com/
 
+![Скриншот](https://github.com/rovoq19/studychat/blob/master/Screenshots/chat.png)
+
 ## Состав команды
 
 * **Шмаков А.П.**
