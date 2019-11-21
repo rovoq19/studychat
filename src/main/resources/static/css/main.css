@@ -49,6 +49,10 @@ body:before {
     border: 1px solid #c8c8c8;
 }
 
+.username-page-container .form-control{
+    margin-top: 5px;
+}
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -261,13 +265,6 @@ button.accent {
 }
 
 @media screen and (max-width: 672px) {
-    .username-page-container {
-        width: auto;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding: 25px;
-    }
-
     #chat-page ul {
         height: calc(100% - 120px);
     }
@@ -290,5 +287,13 @@ button.accent {
 
     .chat-header h2 {
         font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .username-page-container {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
