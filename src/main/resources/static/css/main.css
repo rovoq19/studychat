@@ -220,12 +220,12 @@ button.accent {
 
 #messageForm .input-group input {
     float: left;
-    width: 80%;
+    width: 85%;
 }
 
 #messageForm .input-group button {
     float: left;
-    width: 140px;
+    width: 14%;
     height: 38px;
     margin-left: 5px;
 }
@@ -250,21 +250,17 @@ button.accent {
     width: 100%;
 }
 
-
-@media screen and (max-width: 730px) {
-
-    .chat-container {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 10px;
+@media screen and (max-width: 980px) {
+    #messageForm .input-group button {
+        color: transparent;;
+        background-image: url('/pics/icons/message.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }
 
-@media screen and (max-width: 480px) {
-    .chat-container {
-        height: calc(100% - 30px);
-    }
-
+@media screen and (max-width: 672px) {
     .username-page-container {
         width: auto;
         margin-left: 15px;
