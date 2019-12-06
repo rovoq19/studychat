@@ -9,7 +9,7 @@
   </head>
   <body>
     <noscript>
-      <h2>Браузер не поддерживает JS</h2>
+      <h2>Брауэер не поддерживает JS</h2>
     </noscript>
 
 
@@ -23,7 +23,24 @@
                 </div>
                 <div class="form-group">
                     <button type="submit" class="accent username-submit">Вход</button>
-                    <button type="submit" class="accent username-submit">Регистрация</button>
+                    <button type="button" class="signup-button">Регистрация</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div id="signup-page" class="hidden">
+        <div class="username-page-container">
+            <h1 class="title">Регистрация</h1>
+            <form id="signupForm" name="signupForm">
+                <div class="form-group">
+                    <input type="text" id="username" placeholder="Имя" autocomplete="off" class="form-control" />
+                    <input type="text" id="name" placeholder="Логин" autocomplete="off" class="form-control" />
+                    <input type="text" id="pass" placeholder="Пароль" autocomplete="off" class="form-control" />
+                    <input type="text" id="repeatpass" placeholder="Повторите пароль" autocomplete="off" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <button type="button" class="adduser-button">Зарегистрироваться</button>
                 </div>
             </form>
         </div>

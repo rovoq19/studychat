@@ -7,6 +7,9 @@ var messageForm = document.querySelector('#messageForm');
 var messageInput = document.querySelector('#message');
 var messageArea = document.querySelector('#messageArea');
 var connectingElement = document.querySelector('.connecting');
+var signupButton = document.querySelector('.signup-button');
+var signupPage = document.querySelector('#signup-page');
+var adduserButton = document.querySelector('.adduser-button');
 
 var stompClient = null;
 var username = null;
@@ -117,5 +120,19 @@ function getAvatarColor(messageSender) {
     return colors[index];
 }
 
+
+function openSignupPage(){
+    usernamePage.classList.add('hidden');
+    signupPage.classList.remove('hidden');
+}
+
+
+function adduser(){
+    alert('123');
+    
+}
+
 usernameForm.addEventListener('submit', connect, true)
 messageForm.addEventListener('submit', sendMessage, true)
+signupButton.addEventListener('click', openSignupPage, true)
+adduserButton.addEventListener('click', adduser, true)
